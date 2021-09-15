@@ -37,7 +37,7 @@ To compile from the command line, execute:
 Execution examples:
   Wikipedia generator:
         We have 3 trained models:lda_wiki1w, wiki_1w5 and wiki_noSW_90_Sampling
-	To Run£º Text_datagen/gen_text_data.sh wiki_noSW_90_Sampling 10 100 10000 gen_data/
+	To Runï¿½ï¿½ Text_datagen/gen_text_data.sh wiki_noSW_90_Sampling 10 100 10000 gen_data/
 	
   Amazon movie review generator :
         We have 2 trained models for each score,such as amazonMR1 and AMR1_noSW_95_Sampling
@@ -54,11 +54,11 @@ Execution examples:
 
   E-com table :
         We us PDGF for generate E-com table
-	To Run: Table_datagen/e-com/run.sh
+	To Run: Table_datagen/e-com/generate_table.sh
   Personal Resume :
 	To Run: Table_datagen/personal_generator/gen_resume.sh 100 10 gen_data/
   
-  Run in parallel£º
+  Run in parallelï¿½ï¿½
 	    mkdir /mnt/raid/BigDataGeneratorSuite in every node
 		Configure Non password login and the host: parallel_ex/conf_hosts
 	To Run:
