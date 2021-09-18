@@ -1,0 +1,11 @@
+# IDE specific files
+.idea
+# OS specific file
+.DS_Store
+# logs
+*.log
+# csvs
+*.csv
+# data files
+output
+gen_data

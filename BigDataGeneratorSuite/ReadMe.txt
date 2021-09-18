@@ -38,6 +38,7 @@ Execution examples:
   Wikipedia generator:
         We have 3 trained models:lda_wiki1w, wiki_1w5 and wiki_noSW_90_Sampling
 	To Run�� Text_datagen/gen_text_data.sh wiki_noSW_90_Sampling 10 100 10000 gen_data/
+	! This requires GSL on Mac OS: https://coral.ise.lehigh.edu/jild13/2016/07/11/hello/ !
 	
   Amazon movie review generator :
         We have 2 trained models for each score,such as amazonMR1 and AMR1_noSW_95_Sampling
