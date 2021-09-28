@@ -3,12 +3,10 @@
 # OS specific file
 .DS_Store
 # logs
-BigDataGeneratorSuite/Table_datagen/e-com/logs
+BigDataGeneratorSuite/Table_datagen/e-com/logs/
 BigDataGeneratorSuite/Table_datagen/e-com-generator/src/logs
 # msc-thesis-saft-experiments executable
 BigDataGeneratorSuite/Table_datagen/e-com-generator/src/*.jar
-# csvs
-*.csv
 # data files
 output
 gen_data

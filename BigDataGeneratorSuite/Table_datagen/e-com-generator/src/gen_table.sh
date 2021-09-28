@@ -5,7 +5,6 @@ let L=$1*140
 filePath=$2
 outputPath=$3
 defaultHdfsFs="$4"
-echo "Start generating table data"
 java -XX:NewRatio=1 -jar pdgf.jar -l demo-schema.xml -l demo-generation.xml -c -s -sf $L
 echo "Finished generating table data"
 echo "Start writing table data to HDFS"
